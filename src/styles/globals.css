@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Jost';
+  src: url('/fonts/Jost200Hairline.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Jost';
+  src: url('/fonts/Jost300Hairline.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Jost';
+  src: url('/fonts/Jost500Hairline.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Jost';
+  src: url('/fonts/Jost500Hairline.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Jost';
+  src: url('/fonts/Jost500Hairline.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Jost', sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.swiper-scrollbar.swiper-scrollbar-horizontal{
+  height: 6px; 
+  background-color: #eeeeee;
+  border-radius: 16px;
+  
+}
+
+.swiper-scrollbar.swiper-scrollbar-horizontal .swiper-scrollbar-drag{
+  height: 6px; 
+  background-color: #ccc;
+  border-radius: 16px;
+}
